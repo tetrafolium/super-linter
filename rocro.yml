@@ -2,90 +2,90 @@ inspecode:
 
   autopep8:
     auto-fix: true
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 2 }
 
   clang-format:
     auto-fix: true
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 4 }
 
   cpd:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 6 }
 
   eslint:
     auto-fix: true
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 } # excluded all analyzable files by input/ignore patterns
 
   flake8:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 64 }
 
   flow:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 } # found no input files
 
   #fortify:
   #  thresholds: { num-issues: 999 }
 
   fossology:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 1 }
 
   grep:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 }
 
   jscpd:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 35 }
 
   jshint:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 55 }
 
   misspell:
     auto-fix: true
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 3 }
 
   nose2:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 }
 
   npm-audit:
     auto-fix: true
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 } # found no input files
 
   npm-test:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 } # found no input files
 
   phpcs:
     auto-fix: true
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 568 }
 
   pmd:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 15 }
 
   prettier:
     auto-fix: true
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 43 }
 
   prospector:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 }
 
   pycodestyle:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 63 }
 
   pyflakes:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 1 }
 
   pylint:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 19 }
 
   pytest:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 } # found no input files
 
   shellcheck:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 4 }
 
   #understand:
   #  thresholds: { num-issues: 999 }
 
   unused:
     options: [ --single-occurrence, --all-likelihoods ]
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 }
 
   yapf:
     auto-fix: true
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 2 }
