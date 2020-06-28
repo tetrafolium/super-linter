@@ -8,9 +8,6 @@ inspecode:
     auto-fix: true
     thresholds: { num-issues: 999 }
 
-  coffeelint:
-    thresholds: { num-issues: 999 }
-
   cpd:
     thresholds: { num-issues: 999 }
 
